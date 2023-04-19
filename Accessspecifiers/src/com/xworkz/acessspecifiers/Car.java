@@ -4,9 +4,9 @@ public class Car {
 	
 	//Static variables:-
 	
-	static String name = "mercedes";
+	public static String name = "mercedes";
 	private static String lastName = "Benz";
-	static int tyres = 4;
+	protected static int tyres = 4;
 	static int mirror = 2;
 	
 	// Non Static variables:-
@@ -27,6 +27,12 @@ public class Car {
 	}
 	public static void giveStength() {
 		System.out.println("price");
+	}
+	public void makesTravel() {
+		System.out.println(seatType);
+	}
+	public static void giveHappiness() {
+		System.out.println(lastName);
 	}
 	
 	
