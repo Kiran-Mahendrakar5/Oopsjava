@@ -11,6 +11,8 @@ public class Bus {
 	private String busName;
 	protected static long engineserialNumber;
 	protected static int busNumber;
+	Drives drivesTypes;
+	
 	
 
 	
