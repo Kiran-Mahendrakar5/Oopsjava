@@ -1,11 +1,12 @@
 package com.xworkz.busdatails.drives;
 
+import com.xworkz.busdatails.Bus;
 
-import com.xworkz.busdatails.Drives;
-
-public class BusStarter extends Bus{
+public class BusStarter{
 	
-public BusStarter(int speedMeter,)
+
+
+Bus bus = new Bus(32,"caterpiller",(short)5,"kiran",123456789l,5423);
 	
 	
 
