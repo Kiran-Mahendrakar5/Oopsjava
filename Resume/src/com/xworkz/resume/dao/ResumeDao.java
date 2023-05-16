@@ -54,7 +54,8 @@ public ResumeDto findByName(String name) {
 		System.out.println("name is null");
 		return null;
 		
-	}System.out.println("name not found");
+	}
+		System.out.println("name not found");
 	return null;
 }
 	System.out.println("null name");
@@ -85,7 +86,7 @@ return null;
 
 
 public boolean updateDegreeByName(String name, String degree ) {
-	if(name!=null&&name.length()>=5) {
+	if(name!=null) { 
 		if(degree!=null) {
 			for(int i=0;i<bio.length;i++) {
 				if(bio[i]!=null) {

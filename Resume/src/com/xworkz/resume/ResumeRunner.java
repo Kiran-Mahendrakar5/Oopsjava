@@ -15,7 +15,7 @@ public class ResumeRunner {
 		ResumeDto dto1 = new ResumeDto(null,"kiranmahendrakar159k@gmail.com",null,"sathish",973883113,"28may2000",Address);//negative scenarios
 		ResumeDto dto2 = new ResumeDto(null,"kiranmahendrakar159k@gmail.com","bsc","sathish",973883113,null,null);//negative scenarios
 		
-		dao.saveResume(dto);
+		 dao.saveResume(dto);
 		System.out.println(".........test.........");
 		dao.saveResume(dto1);
 		System.out.println(".........test.........");
@@ -41,7 +41,7 @@ public class ResumeRunner {
 		
 		
 		System.out.println("...............updateDegreeByName...............");
-		dao.updateDegreeByName("Kiran","enginering");
+		dao.updateDegreeByName("kiran","enginering");
 		
 		
 		System.out.println("...............updatePhoneNumberByEmail...............");
