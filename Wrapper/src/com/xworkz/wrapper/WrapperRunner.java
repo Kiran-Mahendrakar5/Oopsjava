@@ -185,25 +185,5 @@ public class WrapperRunner {
 	    boolean bo8 = bo7;
 	    System.out.println(bo8);
 	    
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
-
-	private static boolean Booleanvalue() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
 }
