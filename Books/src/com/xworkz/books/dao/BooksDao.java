@@ -5,7 +5,7 @@ import com.xworkz.books.dto.BooksDto;
 public class BooksDao extends AbstractDao {
 	
 	BooksDto[] classbook = new BooksDto[10];
-	private Object findName;
+	
 	
 	public boolean save(BooksDto dto) {
 		if(dto!=null) {
@@ -75,6 +75,8 @@ public class BooksDao extends AbstractDao {
 		}
 		System.out.println("classbook null check it");
 		return false;
+		
+	
 	}
 
 
