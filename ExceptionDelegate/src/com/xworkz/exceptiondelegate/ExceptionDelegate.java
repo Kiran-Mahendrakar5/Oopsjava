@@ -16,7 +16,7 @@ public class ExceptionDelegate {
 		Class.forName("khjhjjiij");
 	}
 	//UNCHECKED EXCEPTION
-	//ArithmeticException
+	
 	public static void secondMethod() {
 		String[] animal = new String[2];
 		System.out.println(animal[5]);
