@@ -107,6 +107,18 @@ public class Runner {
 		System.out.println(list.set(9, "fx"));
 		System.out.println(list.toString());
 		
+		
+		list.indexOf("p");
+		System.out.println(list.indexOf("p"));
+		list.indexOf("prt");
+		System.out.println(list.indexOf("prt"));
+		list.indexOf("pgn");
+		System.out.println(list.indexOf("pgn"));
+		list.indexOf("dck");
+		System.out.println(list.indexOf("dck"));
+		list.indexOf("hn");
+		System.out.println(list.indexOf("hn"));
+		
 
 	}
 
