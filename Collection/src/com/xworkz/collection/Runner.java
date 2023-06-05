@@ -38,6 +38,7 @@ public class Runner {
 		list.add(2, "Pigeon");
 		list.add(3, "Duck");
 		list.add(4, "Hen");
+		
 		System.out.println(list.toString());
 		System.out.println("......................Remove by Index.........................");
 		

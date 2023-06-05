@@ -1,8 +1,8 @@
 package com.xworkz.tree;
 
-import com.xworkz.tree.constant.ArrayHaveEmptySpace;
+import com.xworkz.tree.constant.ArrayDontHaveEmptySpaceException;
 import com.xworkz.tree.constant.DtoNullException;
-import com.xworkz.tree.constant.GetNameIsNotNull;
+import com.xworkz.tree.constant.GetNameIsNotNullException;
 import com.xworkz.tree.constant.NameNullException;
 import com.xworkz.tree.dao.TreeDao;
 import com.xworkz.tree.dto.TreeDto;
@@ -23,14 +23,14 @@ public class TreeRunner {
      		System.out.println(".................................");
      		try {
 				dao.DeleteName("mangoTree");
-			} catch (GetNameIsNotNull e) {
+			} catch (GetNameIsNotNullException e) {
 				e.printStackTrace();
 			}
 
      		
      		
 			
-		} catch (ArrayHaveEmptySpace e) {
+		} catch (ArrayDontHaveEmptySpaceException e) {
 			e.printStackTrace();
 		}
 		catch(DtoNullException e) {

@@ -1,10 +1,10 @@
 package com.xworkz.tree.constant;
 
-public class GetNameIsNotNull extends Exception {
-	public GetNameIsNotNull() {
+public class GetNameIsNotNullException extends Exception {
+	public GetNameIsNotNullException() {
 		super();
 	}
-	public GetNameIsNotNull(String msg) {
+	public GetNameIsNotNullException(String msg) {
 		super(msg);
 	}
 

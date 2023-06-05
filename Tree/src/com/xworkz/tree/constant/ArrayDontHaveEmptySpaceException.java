@@ -1,10 +1,10 @@
 package com.xworkz.tree.constant;
 
-public class ArrayHaveEmptySpace extends Exception{
-	public ArrayHaveEmptySpace() {
+public class ArrayDontHaveEmptySpaceException extends Exception{
+	public ArrayDontHaveEmptySpaceException() {
 		super();
 	}
-	public ArrayHaveEmptySpace(String meggage) {
+	public ArrayDontHaveEmptySpaceException(String meggage) {
 		super(meggage);
 	}
 

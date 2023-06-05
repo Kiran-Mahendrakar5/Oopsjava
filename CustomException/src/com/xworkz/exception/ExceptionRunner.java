@@ -10,24 +10,24 @@ public class ExceptionRunner {
 		
 		Exception ref = new Exception();
 		try {
-			//ref.myMethod("kiran");
+			ref.myMethod("kiran");
 			//ref.save("kishan");
-			ref.myMethod();
-		}
+			//ref.myMethod();
 		
-//		} catch (InvadildException e) {
-//			
-//			e.printStackTrace();
+		
+		} catch (InvadildException e) {
+			
+			e.printStackTrace();
 		//}
 //		catch(InvalidNullException ec) {
 //			ec.printStackTrace();
 //	}
-		catch(noSpaceInArray ref2) {
-			ref2.printStackTrace();
-		}
+//		catch(noSpaceInArray ref2) {
+//			ref2.printStackTrace();
+//		}
 		System.out.println("out bound running");	
 	
 
 	}
-
+	}
 }
