@@ -1,0 +1,15 @@
+package com.xworkz.throwexception;
+
+public class Throw {
+	
+	public boolean myMethod(String  name1) {
+		if(name1==null) {
+		String name = null;
+		name.equals(name1);
+		
+	}
+		
+		return false;
+
+}
+}

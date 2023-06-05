@@ -1,0 +1,13 @@
+package com.xworkz.set;
+
+import java.util.LinkedHashSet;
+
+public class LinkedRunner {
+	
+//	public static void main(String[] args) {
+		
+	//	LinkedHashSet<Integer> link = new LinkedHashSet<Integer>();
+		
+		//Integer[] itn = {1,2,3,4,6,4,2,9,8};
+
+}

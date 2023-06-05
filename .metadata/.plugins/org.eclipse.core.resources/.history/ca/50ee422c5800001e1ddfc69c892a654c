@@ -1,0 +1,12 @@
+package com.xworkz.watch.dao;
+
+import com.xworkz.watch.dto.WatchDto;
+
+public interface WatchDao  {
+	
+	public boolean save(WatchDto dto);
+	
+	
+	
+
+}

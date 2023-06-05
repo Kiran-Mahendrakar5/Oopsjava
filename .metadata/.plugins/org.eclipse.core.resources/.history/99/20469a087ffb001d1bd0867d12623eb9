@@ -1,0 +1,11 @@
+package com.xworkz.throwexception;
+
+public class Runner {
+	public static void main(String[] args) {
+		Throw ref = new Throw();
+		try {
+			ref.myMethod(null);
+		}
+	}
+
+}

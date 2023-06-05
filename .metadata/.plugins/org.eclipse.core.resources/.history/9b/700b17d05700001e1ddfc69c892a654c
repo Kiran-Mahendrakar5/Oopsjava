@@ -1,0 +1,12 @@
+package com.xworkz.watch;
+
+import com.xworkz.watch.dto.WatchDto;
+
+public class WatchRunner {
+	
+	public static void main(String[] args) {
+		
+		WatchDto dtos = new WatchDto("Iwatch","smartWatch","black",29900);
+	}
+
+}

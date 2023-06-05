@@ -1,0 +1,11 @@
+package com.xworkz.linkedlist;
+
+import java.util.LinkedList;
+
+public class Runner {
+	public static void main(String[] args) {
+		
+		LinkedList<String> list = new LinkedList<String>();
+	}
+
+}

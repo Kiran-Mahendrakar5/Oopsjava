@@ -1,0 +1,21 @@
+package com.xworkz.vegetables.dto;
+
+import com.xworkz.vegetables.constant.VegetableType;
+
+public class VegetablesDto {
+	private String name;
+	private String colour;
+	private String tast;
+	private String vitamin;
+	private VegetableType type;
+	private BreedDto breed;
+	
+	
+	
+	
+	
+	;
+	
+	
+
+}

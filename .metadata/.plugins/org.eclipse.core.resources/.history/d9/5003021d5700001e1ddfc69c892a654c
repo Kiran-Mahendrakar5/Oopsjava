@@ -1,0 +1,13 @@
+package com.xworkz.watch.dao;
+
+import com.xworkz.watch.dto.WatchDto;
+
+public class WatchDaoImp implements WatchDao {
+
+	@Override
+	public boolean save(WatchDto dto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

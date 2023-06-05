@@ -1,0 +1,27 @@
+package com.xworkz.watch.dao;
+
+import java.util.LinkedList;
+
+import com.xworkz.watch.dto.WatchDto;
+
+public class WatchDaoImp implements WatchDao {
+	
+	LinkedList<WatchDto> wtc = new LinkedList<WatchDto>();
+
+	public boolean save(WatchDto dto) {
+		if(dto!=null) {
+			wtc.add(dto);
+			System.out.println("dto is saved");
+			return true;
+			
+		}
+		return false;
+	}
+
+	@Override
+	public LinkedList<WatchDto> read() {
+	
+		return wtc;
+	}
+
+}

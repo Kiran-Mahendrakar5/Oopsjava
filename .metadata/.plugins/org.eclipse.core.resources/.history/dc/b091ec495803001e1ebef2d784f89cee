@@ -1,0 +1,23 @@
+package com.xworkz.set;
+
+import java.util.HashSet;
+
+public class Runner {
+	
+	public static void main(String[] args) {
+		
+		HashSet<String> hash = new HashSet<String>();
+		//unorder ,avoid duplicate 
+		hash.add("apple"); 
+		hash.add("orange");
+		hash.add("grapes");
+		hash.add("pineapple");
+		hash.add("dragonFruit");
+		hash.add("apple");
+		
+		for(String frl:hash) {
+			System.out.println(frl);
+		}
+	}
+
+}
